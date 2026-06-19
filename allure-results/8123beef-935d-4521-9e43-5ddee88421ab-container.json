@@ -1,0 +1,1 @@
+{"uuid":"8123beef-935d-4521-9e43-5ddee88421ab","name":"All Test Suite","children":["d348e2cb-5ba9-4bd7-a47a-f1cf3a0021dc"],"befores":[{"name":"lunchApplication","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1781835658296,"stop":1781835661389}],"afters":[],"start":1781835658280,"stop":1781836011513}

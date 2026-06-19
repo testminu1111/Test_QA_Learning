@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="D:/AI_Integrated_Selenium123">
+    <classes>
+        <class name="TestCases.LoginTest">
+            <methods><include name="login"/>
+                   </methods>
+       </class>
+        <class name="TestCases.AddToCartTest">
+            <methods><include name="verifyAddToCartAndViewCart"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
