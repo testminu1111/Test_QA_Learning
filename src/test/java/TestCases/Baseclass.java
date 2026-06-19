@@ -104,6 +104,7 @@ public class Baseclass {
         // load property file (test.properties)
         Properties props = System.getProperties();
         try {
+            System.out.println("Test12345");
             FileInputStream fileInputStream = new FileInputStream(new File("src/main/resources/test.properties"));
             props.load(fileInputStream);
         } catch (IOException e) {
@@ -126,7 +127,7 @@ public class Baseclass {
             test.skip(result.getThrowable());
         }
     }
-//
+    //
 //    private void captureScreenshot(String testName) {
 //        try {
 //            // Save current time
@@ -179,5 +180,5 @@ public class Baseclass {
 //    public void teardown() {
 //        extent.flush();
 
- //   }
+    //   }
 }

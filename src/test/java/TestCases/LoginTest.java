@@ -21,13 +21,13 @@ public class LoginTest extends Baseclass {
 
     }
 
-    @Test(priority = 2)
+    @Test(priority = 1)
     public void login() throws InterruptedException {
      test = extent.createTest("verify_valid_login");
         extent.flush();
 
         //open application URL
-       // webDriver.get().get(System.getProperty("target.homepage"));
+        webDriver.get().get(System.getProperty("target.homepage"));
         // Reload the page
        // webDriver.get().navigate().refresh();
         // initialize an object from login page
